@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
 <package>
     <name>Driveback_DigitalDataLayer</name>
-    <version>1.0.0</version>
-    <stability>devel</stability>
+    <version>1.0.1</version>
+    <stability>stable</stability>
     <license uri="http://opensource.org/licenses/MIT">MIT</license>
     <channel>community</channel>
     <extends/>
@@ -10,9 +10,9 @@
     <description>Digital Data Layer provides a standardised JSON structure for data relating to the user journey of your visitors, such user details, products viewed and transactions. Data contained in Digital Data Layer can be automatically pushed to any marketing tool or tag management system. This extension plugs into your Magento installation and automatically inserts Digital Data Layer and Digital Data Manager to the top of your pages, taking away 99% of the development work of implementing Digital Data Layer on your site.</description>
     <notes>First stable version with most of required data structures.</notes>
     <authors><author><name>Driveback LLC</name><user>Driveback</user><email>opensource@driveback.ru</email></author></authors>
-    <date>2015-12-30</date>
-    <time>08:58:26</time>
-    <contents><target name="magecommunity"><dir name="Driveback"><dir name="DigitalDataLayer"><dir name="Helper"><file name="Data.php" hash="54e22963c88ead90b0f37d7952833181"/></dir><dir name="Model"><file name="Ddl.php" hash="90aef755b0e3f3b7d496ef592a4b15d7"/><file name="Observer.php" hash="c0e1e4e11e3abbb1909297a1ad9d93d4"/></dir><dir name="etc"><file name="adminhtml.xml" hash="8962fbdb65d1571667cb4205fe88d37c"/><file name="config.xml" hash="c24e54ed52e988a53b3488c5a601f2aa"/><file name="system.xml" hash="acbf953d0f479e743b56974efc39cef4"/></dir></dir></dir></target><target name="magedesign"><dir name="frontend"><dir name="base"><dir name="default"><dir name="layout"><dir name="driveback"><file name="ddl.xml" hash="4e9377be694d7e576f6ca726d75d0e98"/></dir></dir><dir name="template"><dir name="driveback"><file name="ddl.phtml" hash="5c98d2ae644d5b67281b1b791175dc99"/></dir></dir></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Driveback_DigitalDataLayer.xml" hash="55b311d09f0e2d5783564a57c05d69cb"/></dir></target><target name="magelocale"><dir><dir name="en_US"><file name="Driveback_DigitalDataLayer.csv" hash="eeb6318cfa16ba066959b5401579eb61"/></dir><dir name="ru_RU"><file name="Driveback_DigitalDataLayer.csv" hash="c25b11537f7f7472812d7a69c05eff90"/></dir></dir></target><target name="mageweb"><dir name="js"><dir name="driveback"><file name="dd-manager.min.js" hash="a666bf16a05825614a285ebde902ba6a"/></dir></dir></target></contents>
+    <date>2016-06-22</date>
+    <time>12:01:05</time>
+    <contents><target name="magecommunity"><dir name="Driveback"><dir name="DigitalDataLayer"><dir name="Helper"><file name="Data.php" hash="54e22963c88ead90b0f37d7952833181"/></dir><dir name="Model"><file name="Ddl.php" hash="90aef755b0e3f3b7d496ef592a4b15d7"/><file name="Observer.php" hash="c0e1e4e11e3abbb1909297a1ad9d93d4"/></dir><dir name="etc"><file name="adminhtml.xml" hash="8962fbdb65d1571667cb4205fe88d37c"/><file name="config.xml" hash="c24e54ed52e988a53b3488c5a601f2aa"/><file name="system.xml" hash="acbf953d0f479e743b56974efc39cef4"/></dir></dir></dir></target><target name="magedesign"><dir name="frontend"><dir name="base"><dir name="default"><dir name="layout"><dir name="driveback"><file name="ddl.xml" hash="4e9377be694d7e576f6ca726d75d0e98"/></dir></dir><dir name="template"><dir name="driveback"><file name="ddl.phtml" hash="01b7b8da029828aaca3cda05756f1f3a"/></dir></dir></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Driveback_DigitalDataLayer.xml" hash="55b311d09f0e2d5783564a57c05d69cb"/></dir></target><target name="magelocale"><dir><dir name="en_US"><file name="Driveback_DigitalDataLayer.csv" hash="eeb6318cfa16ba066959b5401579eb61"/></dir><dir name="ru_RU"><file name="Driveback_DigitalDataLayer.csv" hash="c25b11537f7f7472812d7a69c05eff90"/></dir></dir></target><target name="mageweb"><dir name="js"><dir name="driveback"><file name="dd-manager.min.js" hash="bed5a5b53a1c10901f5674a5b37589a2"/></dir></dir></target></contents>
     <compatible/>
     <dependencies><required><php><min>5.2.0</min><max>6.0.0</max></php></required></dependencies>
 </package>
